@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+embed {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #f9f9f9, #f4adb9);
+    font-family: arial;
+    margin: 0px;
+    font-size: 1.2em;
+}
+
+div.media, 
+div.navbar {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+ul#social,
+ul#navigation {
+    margin: 0;
+    padding: 0;
+}
+
+ul#social li,
+ul#navigation li {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    padding: 14px 16px;
+    font-family: arial;
+    background-color: rgb(243, 208, 214);
+}
+
+ul#social li:hover, 
+ul#navigation li:hover {
+    background-color: white;
+}
+
+#social li a,
+#navigation li a {
+    color: black;
+}
+
+div#about p,
+div#travel p,
+div#photography p,
+div#fashion p {
+    text-align: justify;
+    margin: 5px;
+}
+
+div h2 {
+    margin: 5px;
+    margin-top: 15px;
+}
+
+div figcaption {
+    font-family: arial;
+    margin-top: -10px;
+    margin-left: 5px;
+    font-style: italic;
+}
+
+div img {
+    border-radius: 8px;
+    margin: 5px;
+    position: relative;
+}
+
+div#hover a img {
+    margin-top: 30px;
+}
+
+div#hover a img:hover {
+    box-shadow: 0 0 20px red;
+}
+
+a.top {
+    font-family: arial;
+    margin-top: 10px;
+    padding: 5px;
+}
